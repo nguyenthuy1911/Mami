@@ -57,6 +57,7 @@ h4 {
 	left: 50%;
 	width: 300px;
 	height: 400px;
+    margin-top: 40px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
@@ -560,4 +561,14 @@ h1 {
     font-weight: 200;
     word-spacing: 5px;
     color: rgb(1, 95, 1);
+}
+
+@media all and (max-width: 480px) {
+    .container{
+        margin-top: 200px;
+    }
+    .card{
+        left: 210px;
+    }
+
 }
