@@ -568,7 +568,8 @@ h1 {
         padding-top: 200px;
     }
     .card{
-        top: 500px;
+        position: relative;
+        top: 100px;
         left: 410px;
     }
 
