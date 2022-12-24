@@ -245,23 +245,6 @@ span{
     color: rgba(15, 219, 234, 0.9);
 }
 
-/* Avatar  */
-.avatar {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: calc(50% - 100px);
-}
-
-.avatar__title {
-    cursor: pointer;
-    margin-top: -100px;
-    background: #0000;
-    -webkit-animation: balloon1 4s ease-in-out infinite;
-    -moz-animation: balloon1 4s ease-in-out infinite;
-    -o-animation: balloon1 4s ease-in-out infinite;
-    animation: balloon1 4s ease-in-out infinite;
-}
 .balloon > div:before {
     color: rgba(182, 15, 97, 0.9);
     position: absolute;
@@ -426,15 +409,7 @@ b {
         transform: translate(-15px, 10px) rotate(10deg);
     }
 }
-h1 {
-    position: relative;
-    top: 660px;
-    left: -80px;
-    text-align: center;
-    color: rgb(98, 7, 184);
-    font-size: 3em;
-    padding-bottom: 60px;
-}
+
 .swal-overlay {
     background-color: rgba(218, 57, 177, 0.45);
 }
@@ -561,4 +536,32 @@ h4 {
 
 .text-right {
 	text-align: right;
+}
+
+/* Avatar  */
+.avatar {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 100px);
+}
+
+.avatar__title {
+    cursor: pointer;
+    margin-top: -100px;
+    background: #0000;
+    -webkit-animation: balloon1 4s ease-in-out infinite;
+    -moz-animation: balloon1 4s ease-in-out infinite;
+    -o-animation: balloon1 4s ease-in-out infinite;
+    animation: balloon1 4s ease-in-out infinite;
+}
+
+h1 {
+    position: relative;
+    top: 660px;
+    left: -80px;
+    text-align: center;
+    color: rgb(98, 7, 184);
+    font-size: 3em;
+    padding-bottom: 10px;
 }
