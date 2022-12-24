@@ -165,7 +165,7 @@ h4 {
 .balloon {
     width: 738px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 50px;
     position: relative;
     font-family: "Wendy One", sans-serif;
 }
@@ -564,11 +564,11 @@ h1 {
 }
 
 @media all and (max-width: 720px) {
-    .container{
-        top: 200px;
+    .balloon{
+        padding-top: 200px;
     }
     .card{
-        top: -200px;
+        top: 50%;
         left: 410px;
     }
 
